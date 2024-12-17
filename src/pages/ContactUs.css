@@ -1,0 +1,239 @@
+/* ContactUs.css */
+
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #FAFAFA;
+  color: #424242;
+  font-family: 'Lato', sans-serif;
+}
+
+.ContactHeading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #2C2A2A;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ContactImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ContactDetails {
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.DetailItem {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #414141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.Highlight {
+  font-weight: bold;
+  color: #F9ED32;
+}
+
+.FeatureList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F2F2F2;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.FeatureItem {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  font-size: 1rem;
+  color: #3C3C3C;
+}
+
+.FeatureItem:before {
+  content: '✓';
+  color: #F9ED32;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.LocationItem {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #3C3C3C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactFormContainer {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ContactFormContainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #252525;
+  text-align: center;
+}
+
+.ContactFormContainer p {
+  margin-bottom: 2rem;
+  color: #424242;
+  text-align: center;
+}
+
+.ContactForm {
+  text-align: left;
+}
+
+.ContactForm .FormGroup {
+  margin-bottom: 1rem;
+}
+
+.ContactForm .FormGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #252525;
+  font-size: 1rem;
+}
+
+.ContactForm .FormGroup input,
+.ContactForm .FormGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #252525;
+  border-radius: 8px;
+  background-color: #FAFAFA;
+  color: #252525;
+  font-size: 1rem;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.ContactForm .FormGroup input:focus,
+.ContactForm .FormGroup textarea:focus {
+  border-color: #F9ED32;
+  outline: none;
+  background: transparent;
+  box-shadow: 0 0 5px rgba(249, 237, 50, 0.5);
+}
+
+.ContactForm button {
+  display: block;
+  
+  margin: 20px auto 0;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #F9ED32;
+  color: #252525;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ContactForm button:hover {
+  background-color: #424242;
+  color: #F9ED32;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .ContactContainer {
+      padding: 1rem;
+  }
+
+  .ContactDetails,
+  .FeatureList,
+  .ContactFormContainer {
+      padding: 1rem;
+      max-width: 100%;
+  }
+
+  .ContactFormContainer {
+      padding: 2rem 1rem;
+  }
+
+  .ContactFormContainer h2 {
+      font-size: 1.2rem;
+  }
+
+  .ContactFormContainer p {
+      font-size: 0.9rem;
+  }
+
+  .ContactForm .FormGroup label {
+      font-size: 1rem;
+  }
+
+  .ContactForm .FormGroup input,
+  .ContactForm .FormGroup textarea {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+  }
+
+  .ContactForm button {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ContactFormContainer {
+      padding: 1rem;
+  }
+
+  .ContactFormContainer h2 {
+      font-size: 1rem;
+  }
+
+  .ContactFormContainer p {
+      font-size: 0.8rem;
+  }
+
+  .ContactForm .FormGroup label {
+      font-size: 1rem;
+  }
+
+  .ContactForm .FormGroup input,
+  .ContactForm .FormGroup textarea {
+      padding: 0.4rem;
+      font-size: 0.8rem;
+  }
+
+  .ContactForm button {
+      font-size: 0.9rem;
+  }
+}

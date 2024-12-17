@@ -1,0 +1,49 @@
+/* Vehicle Container */
+.vehicle-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Vehicle Image */
+  .vehicle-image {
+    max-width: 700px;
+    height: 700px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Container */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  /* Button Styles */
+  .btn-info, .btn-warning, .btn-dark {
+    margin-right: 10px;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-info {
+    background-color: #FFFFFF; /* Blue */
+    color: #3E8EB8;
+  }
+  
+  .btn-warning {
+    background-color: #F9ED32; /* Yellow */
+    color: #252525;
+  }
+  
+  .btn-dark {
+    background-color: #FFFFFF; /* Black */
+    color: red;
+  }
+  
+  .btn-info:hover, .btn-warning:hover, .btn-dark:hover {
+    filter: brightness(1.2);
+  }
+  

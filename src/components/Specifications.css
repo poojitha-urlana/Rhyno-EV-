@@ -1,0 +1,59 @@
+.specifications {
+    background-color: #F2F2F2;
+    color: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5rem;
+  }
+  
+  .specifications h2 {
+    color: #3C3C3C;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .specifications h3 {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    font-size: 2rem;
+  }
+  
+  .specifications ul {
+    border-radius: 8px;
+    list-style: none;
+    padding: 3rem ;
+  }
+  
+  .specifications li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-family: 'Calibri', sans-serif;
+  }
+  .benefits-list  {
+    background-color: #FFFFFF;
+  }
+  .benefits-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .benefits-list li svg {
+    margin-right: 10px;
+  }
+
+  .icon-fire {
+    color: red; /* Color for fire-safe battery */
+  }
+  
+  .icon-road {
+    color: green; /* Color for range prediction */
+  }
+  
+  .icon-cogs {
+    color: blue; /* Color for comfortable ride */
+  }
+  
+  .icon-shield {
+    color: gray; /* Color for stable and safe */
+  }

@@ -1,0 +1,53 @@
+/* WebsitePolicy.css */
+
+.website-policy {
+    background-color: #FAFAFA;
+    padding: 2rem;
+    border-radius: 8px;
+    color: #252525;
+    font-family: 'Lato', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .website-policy h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #131313;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .website-policy h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2C2A2A;
+    margin-bottom: 1rem;
+  }
+  
+  .website-policy h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #3C3C3C;
+    margin-bottom: 0.5rem;
+  }
+  
+  .website-policy p,
+  .website-policy ul,
+  .website-policy ol {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #373737;
+  }
+  
+  .website-policy ul,
+  .website-policy ol {
+    padding-left: 1.5rem;
+  }
+  
+  .website-policy ul li,
+  .website-policy ol li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .website-policy strong {
+    color: #2C2A2A;
+  }
+  

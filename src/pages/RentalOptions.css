@@ -1,0 +1,90 @@
+/* RentalOptions.css */
+
+.rental-options-container {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+.rental-options-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #252525;
+}
+
+.rental-options-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #252525;
+}
+
+.rental-options-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.rental-options-section-title {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #252525;
+}
+
+.rental-options-list {
+  padding-left: 1rem;
+}
+
+.rental-options-list-item {
+  margin-bottom: 0.75rem;
+  position: relative;
+  list-style: none;
+}
+
+.rental-options-list-item::before {
+  content: '•';
+  position: absolute;
+  left: -1rem;
+  color: #f9ed32;
+}
+
+.rental-options-download-buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.rental-options-download-button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.rental-options-icon {
+  margin-right: 0.5rem;
+}
+
+.rental-options-download-button-primary {
+  background-color: #252525;
+  color: #fff;
+}
+
+.rental-options-download-button-primary:hover {
+  background-color: #202020;
+}
+
+.rental-options-download-button-secondary {
+  background-color: #f9ed32;
+  color: #252525;
+}
+
+.rental-options-download-button-secondary:hover {
+  background-color: #fff225;
+}

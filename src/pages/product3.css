@@ -1,0 +1,132 @@
+/* General Styles */
+.max-product-page {
+  padding: 20px;
+  color: #424242;
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+}
+
+.max-product-page h1, .max-product-page h2, .max-product-page h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.max-product-page p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.max-buy-now {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.max-buy-now-button {
+  background-color: #F9ED32;
+
+  color: #252525;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+
+}
+
+.max-buy-now-button:hover {
+  background-color: #FFF225;
+}
+
+/* Button Styles */
+.red-button {
+  background-color: #FF5733;
+  color: #FFFFFF;
+}
+
+.black-button {
+  background-color: #252525;
+  color: #FFFFFF;
+}
+
+.blue-button {
+  background-color: #3E8EB8;
+  color: #FFFFFF;
+}
+
+.red-button, .black-button, .blue-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 10px;
+}
+
+.red-button:hover, .black-button:hover, .blue-button:hover {
+  filter: brightness(1.2);
+}
+
+/* Sections */
+.max-color-selection, .max-overview, .max-features, .max-additional-info {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #EDEDED; /* Light gray background */
+  border-radius: 8px;
+  border: 1px solid #D5D5D5; /* Slightly darker border */
+  color: #424242; /* Dark gray font color */
+}
+
+.max-additional-info h3 {
+  margin-top: 20px;
+}
+
+.max-additional-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.max-additional-info ul li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+.max-product-page a {
+  color: #424242;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.max-product-page a:hover {
+  opacity: 0.8;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .max-product-page {
+    padding: 10px;
+  }
+
+  .max-buy-now-button {
+    font-size: 1em;
+  }
+
+  .red-button, .black-button, .blue-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .max-color-selection, .max-overview, .max-features, .max-additional-info {
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #F2F2F2; /* Lighter gray background for smaller screens */
+  }
+
+  .max-additional-info h3 {
+    font-size: 1.2em;
+  }
+}

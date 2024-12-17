@@ -1,0 +1,219 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #2C2A2A;
+  background-color: #FAFAFA;
+}
+
+/* Main content container */
+.main-content {
+  padding: 20px;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #252525;
+  z-index: 1;
+}
+
+.background-text {
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.1);
+  background: #252525;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(2px);
+  opacity: 0.5;
+  transform: translate(-10%, -50%);
+  top: 60%;
+  left: 40%;
+  z-index: 0;
+}
+
+/* Hero video */
+.hero-video {
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Buttons */
+.hero-section .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #252525;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Images */
+.hero-section img,
+.about-section img,
+.opportunity-section img,
+.mission-section img,
+.vision-section img,
+.gallery-section .img-container img,
+.full-img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.hero-section img,
+.gallery-section .img-container img,
+.full-img img {
+  max-width: 800px;
+}
+
+.hero-section img:hover,
+.gallery-section .img-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Sections */
+.about-section,
+.opportunity-section,
+.mission-section,
+.vision-section {
+  margin-bottom: 40px;
+}
+
+/* Gallery section */
+.gallery-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.img-container {
+  flex: 1 1 30%;
+  max-width: 30%;
+}
+
+/* Full image overlay */
+.full-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.full-img img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.full-img span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.full-img .nav {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-user-select: none; /* Vendor-prefixed property for WebKit browsers */
+  -moz-user-select: none;    /* Vendor-prefixed property for Firefox */
+  -ms-user-select: none;     /* Vendor-prefixed property for Internet Explorer/Edge */
+  user-select: none;  
+}
+
+.full-img .nav.prev {
+  left: 20px;
+}
+
+.full-img .nav.next {
+  right: 20px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .img-container {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .background-text {
+    font-size: 3rem;
+  }
+
+  .hero-section img,
+  .about-section img,
+  .opportunity-section img,
+  .mission-section img,
+  .vision-section img,
+  .gallery-section .img-container img,
+  .full-img img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .background-text {
+    font-size: 2rem;
+  }
+
+  .hero-section .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .hero-section img,
+  .about-section img,
+  .opportunity-section img,
+  .mission-section img,
+  .vision-section img,
+  .gallery-section .img-container img,
+  .full-img img {
+    margin-top: 10px;
+  }
+}
